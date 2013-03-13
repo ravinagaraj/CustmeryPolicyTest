@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/Tools/Tech/apache-jmeter-2.7\extras\jmeter-results-report_21.xsl"?>
+<testResults version="1.2">
+<httpSample t="31239" lt="31239" ts="1363196434794" s="false" lb="DeployBundle" rc="400" rm="Bad Request" tn="Number of Requests 1-1" dt="text" de="" by="369" hn="Ravis-MacBook-Pro.local">
+  <assertionResult>
+    <name>responseCodeAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: headers expected to contain /HTTP/1.1 200 OK/</failureMessage>
+  </assertionResult>
+  <requestHeader class="java.lang.String">Content-Length: 0
+Connection: keep-alive
+Content-Type: application/octet-stream
+</requestHeader>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+</httpSample>
+<httpSample t="2274" lt="2273" ts="1363196466039" s="false" lb="Collections - GET Call" rc="404" rm="Not Found" tn="Number of Requests 1-1" dt="text" de="" by="163" hn="Ravis-MacBook-Pro.local">
+  <assertionResult>
+    <name>responseCodeAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: headers expected to contain /HTTP/1.1 200 OK/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>XML Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Error on line 1: Content is not allowed in prolog.</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>responseTextAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;Collections&gt;&lt;Collection&gt;&lt;Id&gt;/</failureMessage>
+  </assertionResult>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+</httpSample>
+
+<httpSample t="5112" lt="5112" ts="1363196768420" s="false" lb="UnDeployBundle" rc="400" rm="Bad Request" tn="Number of Requests 1-1" dt="text" de="" by="355" hn="Ravis-MacBook-Pro.local">
+  <assertionResult>
+    <name>responseCodeAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: headers expected to contain /HTTP/1.1 200 OK/</failureMessage>
+  </assertionResult>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/octet-stream
+Content-Length: 0
+Host: api.mars.apigee.net
+User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+Authorization: Basic cmF2aW5hZ2FyYWpAYXBpZ2VlLmNvbTpzZWNyZXQxMjM=
+</requestHeader>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+</httpSample>
+<httpSample t="3138" lt="3138" ts="1363196836774" s="false" lb="Collections - GET Call" rc="500" rm="Internal Server Error" tn="Number of Requests 1-1" dt="text" de="" by="279" hn="Ravis-MacBook-Pro.local">
+  <assertionResult>
+    <name>responseCodeAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: headers expected to contain /HTTP/1.1 200 OK/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>XML Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Error on line 1: Content is not allowed in prolog.</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>responseTextAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;Collections&gt;&lt;Collection&gt;&lt;Id&gt;/</failureMessage>
+  </assertionResult>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+</httpSample>
+
+<httpSample t="3451" lt="3451" ts="1363196947382" s="false" lb="Collections - GET Call" rc="500" rm="Internal Server Error" tn="Number of Requests 1-1" dt="text" de="" by="279" hn="Ravis-MacBook-Pro.local">
+  <assertionResult>
+    <name>responseCodeAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: headers expected to contain /HTTP/1.1 200 OK/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>XML Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Error on line 1: Content is not allowed in prolog.</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>responseTextAssertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;Collections&gt;&lt;Collection&gt;&lt;Id&gt;/</failureMessage>
+  </assertionResult>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+</httpSample>
+
+</testResults>
